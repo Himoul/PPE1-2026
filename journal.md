@@ -4,3 +4,7 @@
 - création du repo Github "PPE1-2026"
 - ajout du journal de bord puis pull les mises à jour vers la copie locale
 - ajout des étapes dans le fichier journal de bord puis commit et push les modifications
+
+## 01/10/20216
+- premier TP pipelines, utilisation des commandes unix *grep*, *cut*, *uniq*, *sort*, *tail*, *echo*, *wc*, *cat*
+- push des fichiers du premier TP : Pipelines
