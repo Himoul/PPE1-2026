@@ -1,0 +1,32 @@
+Exercice 1	Comptages simples :
+
+Exercice 1.a
+touch comptes .txt
+echo "Annotations en 2016 :" >> comptes.txt
+ls ~/Documents/archive10 | grep 2016 | grep ann | wc -c >> comptes.txt
+echo "Annotations en 2017 :" >> comptes.txt
+ls ~/Documents/archive10 | grep 2017 | grep ann | wc -c >> comptes.txt
+echo "Annotations en 2018 :" >> comptes.txt
+ls ~/Documents/archive10 | grep 2018 | grep ann | wc -c >> comptes.txt
+
+Exercice 1.b
+touch locations.txt
+echo "Photos à Paris :" >> locations.txt
+ls ~/Documents/archive10/ | grep -i paris | wc -l >> locations.txt 
+echo "Photos à Washington :" >> locations.txt
+ls ~/Documents/archive10/ | grep -i washington | wc -l >> locations.txt 
+echo "Photos à Berlin :" >> locations.txt
+ls ~/Documents/archive10/ | grep -i berlin | wc -l >> locations.txt 
+echo "Photos à Taipei :" >> locations.txt
+ls ~/Documents/archive10/ | grep -i taipei | wc -l >> locations.txt 
+echo "Photos à Rome :" >> locations.txt
+ls ~/Documents/archive10/ | grep -i rome | grep -i -v romeo | wc -l >> locations.txt
+
+Exercice 2	Classements
+Exercice 2.a
+grep -r -i location ~/Documents/archive10/ | grep 2016_ | cut -f 3 | sort | uniq -i -c | sort -n | tail -n 15 | sort -n -r > classement_2016.txt
+grep -r -i location ~/Documents/archive10/ | grep 2017_ | cut -f 3 | sort | uniq -i -c | sort -n | tail -n 15 | sort -n -r > classement_2017.txt
+grep -r -i location ~/Documents/archive10/ | grep 2018_ | cut -f 3 | sort | uniq -i -c | sort -n | tail -n 15 | sort -n -r > classement_2018.txt
+
+Exercice 2.b
+grep -r -i location ~/Documents/archive10/ | grep _08_ | cut -f 3 | sort | uniq -i -c | sort -n | tail -n 15 | sort -n -r > classement_aout.txt
