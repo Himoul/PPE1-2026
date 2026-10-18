@@ -13,3 +13,5 @@
 ### Exercices Git
 lignes
 bidons
+Cette ligne doit rester après correction.
+
