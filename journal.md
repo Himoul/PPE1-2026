@@ -11,3 +11,5 @@
 
 ## Séance 3
 ### Exercices Git
+lignes
+bidons
