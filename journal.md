@@ -8,3 +8,6 @@
 ## 01/10/20216
 - premier TP pipelines, utilisation des commandes unix *grep*, *cut*, *uniq*, *sort*, *tail*, *echo*, *wc*, *cat*
 - push des fichiers du premier TP : Pipelines
+
+## Séance 3
+### Exercices Git
