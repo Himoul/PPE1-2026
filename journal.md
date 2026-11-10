@@ -13,6 +13,7 @@
 ### Exercices Git
 Git more : ligne à conserver
 I AM ERROR.
+Cette ligne doit rester après correction.
 
 ## Exercices scripts Bash
 Description du script de la leçon :
