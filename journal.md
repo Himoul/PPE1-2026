@@ -12,8 +12,11 @@
 ## Séance 3
 ### Exercices Git
 Git more : ligne à conserver
+<<<<<<< HEAD
 I AM ERROR.
 Cette ligne doit rester après correction.
+=======
+>>>>>>> parent of a1a0b06 (I AM ERROR.)
 
 ## Exercices scripts Bash
 Description du script de la leçon :
