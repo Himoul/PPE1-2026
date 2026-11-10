@@ -29,3 +29,7 @@ Ensuite, on définit 3 variables :
 
 On lance ensuite une boucle while qui ne se termine que lorsque la commande read aura terminé sa tache. On affiche la ligne que le script analyse puis on vérifie avec une condition f que la ligne ressemble bien à un url. Si la condition est remplie on incrémente la variable OK de 1, sinon la variable NOK.
 La ligne done < $FICHIER_URLS permet à la commande read d'utiliser le fichier en argument. On termine le script en affichant le nombre d'URL correctes et de lignes douteuses.
+
+modif 1
+# Modification 2
+Une troisième ligne pour la route
