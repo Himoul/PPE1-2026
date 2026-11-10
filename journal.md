@@ -12,6 +12,7 @@
 ## Séance 3
 ### Exercices Git
 I AM ERROR.
+Cette ligne doit rester après correction.
 
 ## Exercices scripts Bash
 Description du script de la leçon :
