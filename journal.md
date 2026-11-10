@@ -11,7 +11,7 @@
 
 ## Séance 3
 ### Exercices Git
-
+I AM ERROR.
 
 ## Exercices scripts Bash
 Description du script de la leçon :
