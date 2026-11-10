@@ -11,9 +11,7 @@
 
 ## Séance 3
 ### Exercices Git
-lignes
-bidons
-Cette ligne doit rester après correction.
+
 
 ## Exercices scripts Bash
 Description du script de la leçon :
