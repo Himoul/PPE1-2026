@@ -12,6 +12,7 @@
 ## Séance 3
 ### Exercices Git
 Git more : ligne à conserver
+I AM ERROR.
 
 ## Exercices scripts Bash
 Description du script de la leçon :
