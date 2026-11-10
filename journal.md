@@ -11,6 +11,7 @@
 
 ## Séance 3
 ### Exercices Git
+Git more : ligne à conserver
 
 ## Exercices scripts Bash
 Description du script de la leçon :
